@@ -897,11 +897,12 @@ body._lock {
   padding: 8px;
   border-radius: 4px;
   min-width: 300px;
-  font-size: 16px;
+  font-size: 18px;
   border: 2px solid transparent;
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s;
+  height: 38px;
 }
 
 .input:focus {
@@ -917,6 +918,7 @@ body._lock {
 }
 
 .select {
+  height: 38px;
   padding: 8px;
   border-radius: 4px;
   min-width: 300px;
@@ -925,6 +927,7 @@ body._lock {
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s;
+  color: #282828;
 }
 
 .select:focus {
@@ -937,6 +940,10 @@ body._lock {
 
 .select.just-validate-success-field {
   border: 2px solid #72f559;
+}
+
+.select option {
+  color: #282828;
 }
 
 .custum-checkbox {
@@ -972,8 +979,8 @@ body._lock {
 
 .checkbox-label {
   display: block;
-  width: 20px;
-  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
   border-radius: 4px;
   background-color: #ffffff;
   position: relative;
@@ -986,6 +993,7 @@ body._lock {
 
 .checkbox-label::before {
   content: "✔";
+  color: #ffffff;
   position: absolute;
   background-color: #56cdfa;
   border-radius: 4px;
@@ -1140,7 +1148,7 @@ body._lock {
 }
 
 .trainer__btn-rent {
-  padding: 12px 18px;
+  padding: 12px 24px;
   border-radius: 8px;
   background-color: transparent;
   border: 2px solid #ff8a56;
@@ -1637,6 +1645,7 @@ body._lock {
 .notification span {
   font-size: 22px;
   white-space: nowrap;
+  color: #ffffff;
 }
 
 .notification._active {
@@ -1677,6 +1686,13 @@ body._lock {
 
   .trainer__wp-text {
     width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .trainer__btn-rent {
+    width: 200px;
   }
 
   .schedule__table {
