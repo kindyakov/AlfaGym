@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>AlfaGym</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230603231432">
+	<!-- <link rel="shortcut icon" href="img/favicon/Gulp.svg"> -->
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+	<div class="header_content _container">
+		<div class="header__top">
+			<div class="header__address">м.Буниская Аллея</div>
+			<div class="header__schedule">Понедельник - пятница с 6:00 до 23:00</div>
+			<div class="header__mail">AlfaGym@mail.ru</div>
+		</div>
+		<div class="header__bottom">
+			<div class="wp-logo">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" height="24" stroke-width="1.5" viewBox="0 0 24 24"
+					width="24">
+					<path
+						d="M8.48901 17.7273H18.3556M8.48901 17.7273V21H18.3556V17.7273M8.48901 17.7273C5.20016 15.5455 3.55573 10.0909 4.10387 8.45455C4.54239 7.14545 6.47916 7.54545 7.39273 7.90909C7.39273 4.09091 9.03715 3 13.4223 3C17.8074 3 20 4.09091 20 9.54545C20 13.9091 18.9037 16.8182 18.3556 17.7273"
+						stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+					<path d="M7.39282 7.90909C7.75825 8.27272 8.81799 9 10.1335 9C11.4491 9 13.9705 9 15.0668 9"
+						stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+					<path d="M7.39282 7.90909C7.39282 11.7273 9.03725 12.2727 10.1335 12.2727" stroke="currentColor"
+						stroke-linecap="round" stroke-linejoin="round" />
+				</svg>
+				<span class="logo">AlfaGym</span>
+			</div>
+			<nav class="header__nav">
+				<ul class="header__menu">
+					<li class="header__li"><a href="#schedule" class="header__link">Расписание</a></li>
+					<li class="header__li"><a href="#coaches" class="header__link">Тренеры</a></li>
+					<li class="header__li"><a href="#services" class="header__link">Услуги</a></li>
+					<li class="header__li"><a href="#price" class="header__link">Цены</a></li>
+				</ul>
+			</nav>
+			<div class="header__burger">
+				<div class="header__burger-active">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="header__burger-close">
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+		<main class="page">
+			<div class="_container _page-column">
+				<!-- Расписание тренировок 👇-->
+				<section id="schedule" class="schedule section">
+					<div class="schedule__content section-content">
+						<h2 class="schedule__title _title">Расписание тренировок</h2>
+						<div class="schedule__wp-table section-body">
+							<table class="schedule__table">
+								<thead class="schedule__thead">
+									<tr class="schedule__tr">
+										<th class="schedule__th">Понедельник</th>
+										<th class="schedule__th">Вторник</th>
+										<th class="schedule__th">Среда</th>
+										<th class="schedule__th">Четверг</th>
+										<th class="schedule__th">Пятница</th>
+									</tr>
+								</thead>
+								<tbody class="schedule__tbody">
+									<tr class="schedule__tr">
+										<td class="schedule__td">
+											<div class="schedule__td-content">
+												<span class="schedule__td-time">10:00 - 12:00</span>
+												<span class="schedule__td-name">Бокс - зал #1</span>
+											</div>
+										</td>
+										<td class="schedule__td">
+											<div class="schedule__td-content">
+												<span class="schedule__td-time">10:00 - 12:00</span>
+												<span class="schedule__td-name">Бокс - зал #1</span>
+											</div>
+										</td>
+										<td class="schedule__td">
+											<div class="schedule__td-content">
+												<span class="schedule__td-time">10:00 - 12:00</span>
+												<span class="schedule__td-name">Бокс - зал #1</span>
+											</div>
+										</td>
+										<td class="schedule__td">
+											<div class="schedule__td-content">
+												<span class="schedule__td-time">10:00 - 12:00</span>
+												<span class="schedule__td-name">Бокс - зал #1</span>
+											</div>
+										</td>
+										<td class="schedule__td">
+											<div class="schedule__td-content">
+												<span class="schedule__td-time">10:00 - 12:00</span>
+												<span class="schedule__td-name">Бокс - зал #1</span>
+											</div>
+										</td>
+									</tr>
+									<tr class="schedule__tr">
+										<td class="schedule__td">
+											<div class="schedule__td-content">
+												<span class="schedule__td-time">10:00 - 12:00</span>
+												<span class="schedule__td-name">Бокс - зал #1</span>
+											</div>
+										</td>
+										<td class="schedule__td">
+											<div class="schedule__td-content">
+												<span class="schedule__td-time">10:00 - 12:00</span>
+												<span class="schedule__td-name">Бокс - зал #1</span>
+											</div>
+										</td>
+										<td class="schedule__td">
+											<div class="schedule__td-content">
+												<span class="schedule__td-time">10:00 - 12:00</span>
+												<span class="schedule__td-name">Бокс - зал #1</span>
+											</div>
+										</td>
+										<td class="schedule__td">
+											<div class="schedule__td-content">
+												<span class="schedule__td-time">10:00 - 12:00</span>
+												<span class="schedule__td-name">Бокс - зал #1</span>
+											</div>
+										</td>
+										<td class="schedule__td">
+											<div class="schedule__td-content">
+												<span class="schedule__td-time">10:00 - 12:00</span>
+												<span class="schedule__td-name">Бокс - зал #1</span>
+											</div>
+										</td>
+									</tr>
+									<tr class="schedule__tr">
+										<td class="schedule__td">
+											<div class="schedule__td-content">
+												<span class="schedule__td-time">10:00 - 12:00</span>
+												<span class="schedule__td-name">Бокс - зал #1</span>
+											</div>
+										</td>
+										<td class="schedule__td">
+											<div class="schedule__td-content">
+												<span class="schedule__td-time">10:00 - 12:00</span>
+												<span class="schedule__td-name">Бокс - зал #1</span>
+											</div>
+										</td>
+										<td class="schedule__td">
+											<div class="schedule__td-content">
+												<span class="schedule__td-time">10:00 - 12:00</span>
+												<span class="schedule__td-name">Бокс - зал #1</span>
+											</div>
+										</td>
+										<td class="schedule__td">
+											<div class="schedule__td-content">
+												<span class="schedule__td-time">10:00 - 12:00</span>
+												<span class="schedule__td-name">Бокс - зал #1</span>
+											</div>
+										</td>
+										<td class="schedule__td">
+											<div class="schedule__td-content">
+												<span class="schedule__td-time">10:00 - 12:00</span>
+												<span class="schedule__td-name">Бокс - зал #1</span>
+											</div>
+										</td>
+									</tr>
+									<tr class="schedule__tr">
+										<td class="schedule__td">
+											<div class="schedule__td-content">
+												<span class="schedule__td-time">10:00 - 12:00</span>
+												<span class="schedule__td-name">Бокс - зал #1</span>
+											</div>
+										</td>
+										<td class="schedule__td">
+											<div class="schedule__td-content">
+												<span class="schedule__td-time">10:00 - 12:00</span>
+												<span class="schedule__td-name">Бокс - зал #1</span>
+											</div>
+										</td>
+										<td class="schedule__td">
+											<div class="schedule__td-content">
+												<span class="schedule__td-time">10:00 - 12:00</span>
+												<span class="schedule__td-name">Бокс - зал #1</span>
+											</div>
+										</td>
+										<td class="schedule__td">
+											<div class="schedule__td-content">
+												<span class="schedule__td-time">10:00 - 12:00</span>
+												<span class="schedule__td-name">Бокс - зал #1</span>
+											</div>
+										</td>
+										<td class="schedule__td">
+											<div class="schedule__td-content">
+												<span class="schedule__td-time">10:00 - 12:00</span>
+												<span class="schedule__td-name">Бокс - зал #1</span>
+											</div>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</section>
+				<!-- Расписание тренировок 👆-->
+				<!-- Тренеры 👇-->
+				<section id="coaches" class="coaches section">
+					<div class="coaches__content section-content">
+						<h2 class="schedule__title _title">Команда тренеров</h2>
+						<div class="coaches__body section-body">
+							<div class="coaches__wp-card">
+								<div class="coaches__card">
+									<div class="coaches__wp-img">
+										<picture><source srcset="img/card-1.webp" type="image/webp"><img src="img/card-1.jpg" alt="Тренер по боксу" class="coaches__card-img"></picture>
+									</div>
+									<div class="coaches__wp-description">
+										<h4 class="coaches__name">Алексей Степанов</h4>
+										<ul class="coaches__list">
+											<li class="coaches__li">Специализация:</li>
+											<li class="coaches__li">Подготовка к соревнованиям по бодибилдингу.</li>
+											<li class="coaches__li">Набор мышечной массы.</li>
+											<li class="coaches__li">Консультация по питанию.</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="coaches__wp-card">
+								<div class="coaches__card">
+									<div class="coaches__wp-img">
+										<picture><source srcset="img/card-2.webp" type="image/webp"><img src="img/card-2.png" alt="Тренер по боксу" class="coaches__card-img"></picture>
+									</div>
+									<div class="coaches__wp-description">
+										<h4 class="coaches__name">Максим Лаптев</h4>
+										<ul class="coaches__list">
+											<li class="coaches__li">Специализация:</li>
+											<li class="coaches__li">Фунциональный тренинг.</li>
+											<li class="coaches__li">Коррекция веса.</li>
+											<li class="coaches__li">Реабилитация после травм.</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="coaches__wp-card">
+								<div class="coaches__card">
+									<div class="coaches__wp-img">
+										<picture><source srcset="img/card-3.webp" type="image/webp"><img src="img/card-3.jpg" alt="Тренер по боксу" class="coaches__card-img"></picture>
+									</div>
+									<div class="coaches__wp-description">
+										<h4 class="coaches__name">Дмитрий Гусев</h4>
+										<ul class="coaches__list">
+											<li class="coaches__li">Специализация:</li>
+											<li class="coaches__li">Составление тренировачных программ.</li>
+											<li class="coaches__li">Кроссфит тренинг.</li>
+											<li class="coaches__li">Тренировки для женщин.</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- Тренеры 👆 -->
+				<!-- Услуги 👇-->
+				<section id="services" class="services section">
+					<div class="services__content section-content">
+						<h2 class="services__title _title">Услуги</h2>
+						<div class="services__body section-body">
+							<div class="services__top">
+								<div class="services__top-block">
+									<div class="services__top-wp-img">
+										<picture><source srcset="img/card.webp" type="image/webp"><img src="img/card.png" alt="Услуга" class="services__top-img"></picture>
+									</div>
+									<h4 class="services__top-title">Клубная карта</h4>
+								</div>
+								<div class="services__top-block">
+									<div class="services__top-wp-img">
+										<picture><source srcset="img/trenazhernii-zal.webp" type="image/webp"><img src="img/trenazhernii-zal.jpg" alt="Услуга" class="services__top-img"></picture>
+									</div>
+									<h4 class="services__top-title">Тренажерный зал</h4>
+								</div>
+								<div class="services__top-block">
+									<div class="services__top-wp-img">
+										<picture><source srcset="img/trenirovka.webp" type="image/webp"><img src="img/trenirovka.jpg" alt="Услуга" class="services__top-img"></picture>
+									</div>
+									<h4 class="services__top-title">Групповые Тренировки</h4>
+								</div>
+							</div>
+							<div class="services__bottom">
+								<div class="services__bottom-wp-text">
+									<p class="services__bottom-text">Попробуй наш обновленный формат тренировок, подходит как и для
+										новичков,так и для профессиональных спортсменов </p>
+									<p class="services__bottom-text">каждый вид спорта предъявляет свои требования, то есть, требует
+										развития тех групп мышц, которые необходимы для достижения лучшего результата</p>
+								</div>
+								<button class="services__button">Выбрать тренажер</button>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- Услуги 👆-->
+				<!-- Цены 👇-->
+				<section id="price" class="price section">
+					<div class="price__content section-content">
+						<h2 class="schedule__title _title">Выберите тарифный план</h2>
+						<div class="price__body section-body">
+							<div class="price__wp-card">
+								<div class="price__card">
+									<h4 class="price__name">Elementary</h4>
+									<div class="price__wp-tariff">
+										<span class="price__tariff-price">2000</span>
+										<p class="price__tariff-info">Ежемесечно</p>
+									</div>
+									<ul class="price__list">
+										<li class="price__li">Безлимитное посещение клуба с 6:00 до 23:00</li>
+										<li class="price__li">Посещение банного комплекса: финской сауны, турецкого хамама</li>
+										<li class="price__li">Хранение ценных вещей в сейфовых ячейках</li>
+										<li class="price__li">Заморозка клубной карты на 7 дней</li>
+										<li class="price__li">Гостевой визит для друга</li>
+									</ul>
+									<button class="price__button">Приобрести</button>
+								</div>
+							</div>
+							<div class="price__wp-card">
+								<div class="price__card">
+									<h4 class="price__name">Standart</h4>
+									<div class="price__wp-tariff">
+										<span class="price__tariff-price">3000</span>
+										<p class="price__tariff-info">Ежемесечно</p>
+									</div>
+									<ul class="price__list">
+										<li class="price__li">Безлимитное посещение клуба с 6:00 до 23:00</li>
+										<li class="price__li">Посещение банного комплекса: финской сауны, турецкого хамама</li>
+										<li class="price__li">Хранение ценных вещей в сейфовых ячейках</li>
+										<li class="price__li">Заморозка клубной карты на 7 дней</li>
+										<li class="price__li">Гостевой визит для друга</li>
+									</ul>
+									<button class="price__button">Приобрести</button>
+								</div>
+							</div>
+							<div class="price__wp-card">
+								<div class="price__card">
+									<h4 class="price__name">Business</h4>
+									<div class="price__wp-tariff">
+										<span class="price__tariff-price">4000</span>
+										<p class="price__tariff-info">Ежемесечно</p>
+									</div>
+									<ul class="price__list">
+										<li class="price__li">Безлимитное посещение клуба с 6:00 до 23:00</li>
+										<li class="price__li">Посещение банного комплекса: финской сауны, турецкого хамама</li>
+										<li class="price__li">Хранение ценных вещей в сейфовых ячейках</li>
+										<li class="price__li">Заморозка клубной карты на 7 дней</li>
+										<li class="price__li">Гостевой визит для друга</li>
+									</ul>
+									<button class="price__button">Приобрести</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- Цены 👆 -->
+			</div>
+		</main>
+		<!-- Подвал 👇-->
+		<footer class="footer">
+	<div class="footer__content _container">
+		<div class="footer__wp-block">
+			<div class="wp-logo">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" height="24" stroke-width="1.5" viewBox="0 0 24 24"
+					width="24">
+					<path
+						d="M8.48901 17.7273H18.3556M8.48901 17.7273V21H18.3556V17.7273M8.48901 17.7273C5.20016 15.5455 3.55573 10.0909 4.10387 8.45455C4.54239 7.14545 6.47916 7.54545 7.39273 7.90909C7.39273 4.09091 9.03715 3 13.4223 3C17.8074 3 20 4.09091 20 9.54545C20 13.9091 18.9037 16.8182 18.3556 17.7273"
+						stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+					<path d="M7.39282 7.90909C7.75825 8.27272 8.81799 9 10.1335 9C11.4491 9 13.9705 9 15.0668 9"
+						stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+					<path d="M7.39282 7.90909C7.39282 11.7273 9.03725 12.2727 10.1335 12.2727" stroke="currentColor"
+						stroke-linecap="round" stroke-linejoin="round" />
+				</svg>
+				<span class="logo">AlfaGym</span>
+			</div>
+			<div class="footer__wp-messenger">
+				<div class="footer__wp-svg">
+					<a href="#" class="footer__link-svg">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+							<rect width="512" height="512" rx="15%" fill="#37aee2" />
+							<path fill="#c8daea" d="M199 404c-11 0-10-4-13-14l-32-105 245-144" />
+							<path fill="#a9c9dd" d="M199 404c7 0 11-4 16-8l45-43-56-34" />
+							<path fill="#f6fbfe"
+								d="M204 319l135 99c14 9 26 4 30-14l55-258c5-22-9-32-24-25L79 245c-21 8-21 21-4 26l83 26 190-121c9-5 17-3 11 4" />
+						</svg>
+					</a>
+					<a href="#" class="footer__link-svg">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#fff">
+							<rect width="512" height="512" rx="15%" fill="#665ca7" />
+							<path fill="none" stroke="#fff" stroke-linecap="round" stroke-width="10"
+								d="M269 186a30 30 0 0 1 31 31m-38-58a64 64 0 0 1 64 67m-73-93a97 97 0 0 1 99 104" />
+							<path fill-rule="evenodd"
+								d="M95 232c0-91 17-147 161-147s161 56 161 147-17 147-161 147l-26-1-53 63c-4 4-8 1-8-3v-69c-6 0-31-12-38-19-22-23-36-40-36-118zm-30 0c0-126 55-177 191-177s191 51 191 177-55 177-191 177c-10 0-18 0-32-2l-38 43c-7 8-28 11-28-13v-42c-6 0-20-6-39-18-19-13-54-44-54-145zm223 42q10-13 24-4l36 27q8 10-7 28t-28 15q-53-12-102-60t-61-104q0-20 25-34 13-9 22 5l25 35q6 12-7 22c-39 15 51 112 73 70z" />
+						</svg>
+					</a>
+					<a href="#" class="footer__link-svg">
+						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+							<defs>
+								<style>
+									.cls-1 {
+										fill: url(#linear-gradient);
+									}
+
+									.cls-2 {
+										fill: #fff;
+									}
+								</style>
+								<linearGradient gradientUnits="userSpaceOnUse" id="linear-gradient" x1="32" x2="32" y1="4" y2="64.81">
+									<stop offset="0" stop-color="#1df47c" />
+									<stop offset="0.31" stop-color="#12df63" />
+									<stop offset="0.75" stop-color="#05c443" />
+									<stop offset="1" stop-color="#00ba37" />
+								</linearGradient>
+							</defs>
+							<title />
+							<g data-name="23-whatsapp" id="_23-whatsapp">
+								<rect class="cls-1" height="64" rx="11.2" ry="11.2" width="64" />
+								<path class="cls-2"
+									d="M27.42,21.38l2,5.43a.76.76,0,0,1-.1.74,10.32,10.32,0,0,1-1.48,1.71.8.8,0,0,0-.16,1.09C28.91,32,32.1,36,36.25,37.43a.79.79,0,0,0,.89-.29l1.66-2.21a.8.8,0,0,1,1-.23L45,37.3a.79.79,0,0,1,.4,1c-.57,1.62-2.36,5.57-6.19,4.93A20.79,20.79,0,0,1,26.4,36c-3.14-3.92-9.34-14,.19-15.14A.8.8,0,0,1,27.42,21.38Z" />
+								<path class="cls-2"
+									d="M33.6,54.8a24.21,24.21,0,0,1-11.94-3.13l-12,3.08,4.41-9.91A22,22,0,0,1,10,32C10,19.43,20.59,9.2,33.6,9.2S57.2,19.43,57.2,32,46.61,54.8,33.6,54.8ZM22.29,47.37l.73.45a20.13,20.13,0,0,0,10.58,3c10.81,0,19.6-8.43,19.6-18.8S44.41,13.2,33.6,13.2,14,21.63,14,32a18.13,18.13,0,0,0,4,11.34l.75.95-3.61,6.12Z" />
+							</g>
+						</svg>
+					</a>
+					<a href="#" class="footer__link-svg">
+						<svg xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/"
+							xmlns:xlink="http://www.w3.org/1999/xlink" height="100%"
+							style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;" version="1.1"
+							viewBox="0 0 24 24" width="100%" xml:space="preserve">
+							<rect height="24" id="Artboard10" style="fill:none;" width="24" x="0" y="0" />
+							<path
+								d="M22,7c0,-2.761 -2.239,-5 -5,-5c-3.054,0 -6.946,0 -10,0c-2.761,0 -5,2.239 -5,5c0,3.054 0,6.946 0,10c0,2.761 2.239,5 5,5c3.054,0 6.946,0 10,0c2.761,0 5,-2.239 5,-5c0,-3.054 0,-6.946 0,-10Z"
+								style="fill:url(#_Radial1);" />
+							<path
+								d="M14.958,5.005c2.091,0.02 4.016,1.815 4.037,4.037c0.007,1.972 0.007,3.944 0,5.916c-0.02,2.083 -1.815,4.016 -4.037,4.037c-1.972,0.007 -3.944,0.007 -5.916,0c-2.092,-0.02 -4.016,-1.815 -4.037,-4.037c-0.007,-1.972 -0.007,-3.944 0,-5.916c0.019,-2.093 1.81,-4.016 4.037,-4.037c1.972,-0.007 3.944,-0.007 5.916,0Zm-5.889,0.945c-1.623,0.005 -3.103,1.412 -3.119,3.098c-0.006,1.968 -0.006,3.936 0,5.904c0.015,1.605 1.388,3.082 3.098,3.098c1.968,0.006 3.936,0.006 5.904,0c1.609,-0.015 3.082,-1.388 3.098,-3.098c0.006,-1.968 0.006,-3.936 0,-5.904c-0.015,-1.616 -1.415,-3.082 -3.098,-3.098c-1.961,-0.006 -3.922,0 -5.883,0Z"
+								style="fill:#fff;fill-rule:nonzero;" />
+							<path
+								d="M12.024,8.5c1.618,0.015 3.126,1.263 3.422,2.862c0.211,1.14 -0.187,2.376 -1.027,3.178c-0.935,0.89 -2.382,1.208 -3.622,0.754c-1.386,-0.507 -2.361,-1.968 -2.296,-3.448c0.079,-1.768 1.641,-3.34 3.499,-3.346c0.008,0 0.016,0 0.024,0Zm-0.04,0.947c-1.155,0.011 -2.244,0.887 -2.484,2.025c-0.243,1.151 0.419,2.428 1.506,2.887c1.187,0.502 2.72,-0.061 3.293,-1.233c0.593,-1.211 0.034,-2.856 -1.218,-3.441c-0.341,-0.159 -0.72,-0.239 -1.097,-0.238Z"
+								style="fill:#fff;fill-rule:nonzero;" />
+							<path
+								d="M16.5,8.227c0,-0.193 -0.077,-0.378 -0.213,-0.514c-0.136,-0.136 -0.321,-0.213 -0.514,-0.213c-0.015,0 -0.031,0 -0.046,0c-0.193,0 -0.378,0.077 -0.514,0.213c-0.136,0.136 -0.213,0.321 -0.213,0.514c0,0.008 0,0.015 0,0.023c0,0.199 0.079,0.39 0.22,0.53c0.14,0.141 0.331,0.22 0.53,0.22c0,0 0,0 0,0c0.414,0 0.75,-0.336 0.75,-0.75c0,-0.008 0,-0.015 0,-0.023Z"
+								style="fill:#fff;" />
+							<defs>
+								<radialGradient cx="0" cy="0" gradientTransform="matrix(27.933,0,0,27.933,2,21.5)"
+									gradientUnits="userSpaceOnUse" id="_Radial1" r="1">
+									<stop offset="0" style="stop-color:#ff8100;stop-opacity:1" />
+									<stop offset="0.19" style="stop-color:#ff7209;stop-opacity:1" />
+									<stop offset="0.32" style="stop-color:#f55e16;stop-opacity:1" />
+									<stop offset="0.48" style="stop-color:#d92938;stop-opacity:1" />
+									<stop offset="1" style="stop-color:#9100ff;stop-opacity:1" />
+								</radialGradient>
+							</defs>
+						</svg>
+					</a>
+				</div>
+				<button class="btn-svg">
+					<span></span>
+				</button>
+			</div>
+		</div>
+		<div class="footer__wp-block">
+			<div class="footer__block">
+				<a href="tel:+74956204230" class="footer__info footer__link">
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+						viewBox="0 0 477.156 477.156" xml:space="preserve">
+						<g>
+							<path d="M475.009,380.316l-2.375-7.156c-5.625-16.719-24.062-34.156-41-38.75l-62.688-17.125c-17-4.625-41.25,1.594-53.688,14.031
+							l-22.688,22.688c-82.453-22.28-147.109-86.938-169.359-169.375L145.9,161.94c12.438-12.438,18.656-36.656,14.031-53.656
+							l-17.094-62.719c-4.625-16.969-22.094-35.406-38.781-40.969L96.9,2.19c-16.719-5.563-40.563,0.063-53,12.5L9.962,48.659
+							C3.899,54.69,0.024,71.94,0.024,72.003c-1.187,107.75,41.063,211.562,117.281,287.781
+							c76.031,76.031,179.454,118.219,286.891,117.313c0.562,0,18.312-3.813,24.375-9.845l33.938-33.938
+							C474.946,420.878,480.571,397.035,475.009,380.316z" />
+						</g>
+					</svg>
+					<span>8 (495) 620-42-30</span>
+				</a>
+				<p class="footer__info">
+					<svg enable-background="new 0 0 64 64" version="1.1" viewBox="0 0 64 64" xml:space="preserve"
+						xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+						<g>
+							<path
+								d="M63.125,9.977c-0.902-1.321-2.419-2.194-4.131-2.194H5.006c-1.676,0-3.158,0.842-4.067,2.117l31.16,25.982L63.125,9.977z" />
+							<path
+								d="M0.006,14.328v36.889c0,2.75,2.25,5,5,5h53.988c2.75,0,5-2.25,5-5V14.461L32.099,41.09L0.006,14.328z" />
+						</g>
+					</svg>
+					<span>AlfaGym@mail.ru</span>
+				</p>
+				<p class="footer__info">
+					<svg xmlns:x="http://ns.adobe.com/Extensibility/1.0/" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/"
+						xmlns:graph="http://ns.adobe.com/Graphs/1.0/" xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+						version="1.1" baseProfile="tiny" id="Layer_1" x="0px" y="0px" width="42px" height="42px" viewBox="0 0 42 42"
+						xml:space="preserve">
+						<path fill-rule="evenodd"
+							d="M33,13.924C33,6.893,27.594,1,20.51,1S8,6.897,8,13.93C8,16.25,8.324,18,9.423,20H9.402l10.695,20.621  c0.402,0.551,0.824-0.032,0.824-0.032C20.56,41.13,31.616,20,31.616,20h-0.009C32.695,18,33,16.246,33,13.924z M14.751,13.528  c0-3.317,2.579-6.004,5.759-6.004c3.179,0,5.76,2.687,5.76,6.004s-2.581,6.005-5.76,6.005C17.33,19.533,14.751,16.846,14.751,13.528  z" />
+					</svg>
+					<span>м.Буниская Аллея</span>
+				</p>
+			</div>
+			<div class="footer__block">
+				<button class="footer__button">Подписаться на рассылку</button>
+			</div>
+		</div>
+	</div>
+</footer>
+		<!-- Подвал 👆-->
+
+	</div>
+	<div class="notification">
+		<span>✔ Заявка обработана</span>
+	</div>
+	<div class="modal">
+	<div class="modal__content">
+		<div class="modal__body">
+			<div class="modal__wrapper">
+				<h2 class="modal__title _title">Выберите ваш вид спорта</h2>
+				<div class="modal__wp-box">
+					<div class="modal__box" data-type="boxing">
+						<div class="modal__wp-img">
+							<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="m46 90c0 49.629 40.371 90 90 90h180v-10.503c0-23.115 9.111-45.85 25.005-62.373 17.765-17.708 40.281-27.239 63.944-27.521-5.23-44.688-42.88-79.603-88.949-79.603h-180c-49.629 0-90 40.371-90 90z" />
+								<path d="m106 405h30v107h-30z" />
+								<path d="m346 405h30v107h-30z" />
+								<path
+									d="m241 315c-41.353 0-75 33.647-75 75v122h150v-122c0-41.353-33.647-75-75-75zm15 150h-30v-30h30zm0-60h-30v-30h30z" />
+								<path
+									d="m406.829 109.581-1.518.019c-24.769.294-49.724 16.28-57.133 44.764-3.234 12.477-1.834 10.997-2.179 43.244-.293 22.852-7.544 50.259-16.875 63.926l-24.785-16.904c4.125-6.042 8.632-20.164 10.602-34.629h-178.941c-36.01 0-67.987-16.272-90-41.472v61.569c0 53.998 19.673 104.771 55.051 144.902h36.465c7.357-50.75 50.729-90 103.484-90s96.127 39.25 103.484 90h40.049c49.105-41.153 81.467-110.081 81.467-178.799v-26.704c0-32.807-26.472-59.46-59.171-59.916z" />
+							</svg>
+						</div>
+						<h4 class="modal__box-title">Бокс</h4>
+					</div>
+					<div class="modal__box" data-type="football">
+						<div class="modal__wp-img">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -0.33 20.754 20.754">
+								<g transform="translate(-1.623 -1.913)">
+									<path id="secondary" fill="transparent"
+										d="M14.33,3.31,12,5,9.67,3.31a8.91,8.91,0,0,1,4.66,0ZM4.46,7.1A9,9,0,0,0,3,11.53L5.34,9.84ZM8,17.89l-.07-.23H5A8.92,8.92,0,0,0,8.78,20.4ZM12,8,8.5,10.67,9.84,15h4.32l1.34-4.33Zm4.11,9.66-.07.23-.82,2.51A8.92,8.92,0,0,0,19,17.66ZM19.54,7.11l-.88,2.73L21,11.53a8.93,8.93,0,0,0-1.46-4.42Z" />
+									<path id="primary" d="M9.67,3.31,12,5l2.33-1.69" fill="none" stroke-linecap="round"
+										stroke-linejoin="round" stroke-width="2" />
+									<path id="primary-2" data-name="primary" d="M3.02,11.53,5.34,9.84,4.46,7.1" stroke-linecap="round"
+										stroke-linejoin="round" stroke-width="2" />
+									<path id="primary-3" data-name="primary" d="M18,18l-1.92-.04-.73,2.38" fill="none"
+										stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+									<path id="primary-4" data-name="primary" d="M6,18l1.92-.04.73,2.38" fill="none" stroke-linecap="round"
+										stroke-linejoin="round" stroke-width="2" />
+									<path id="primary-5" data-name="primary" d="M19.55,7.1l-.89,2.74,2.32,1.69" fill="none"
+										stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+									<path id="primary-6" data-name="primary"
+										d="M12,8V5M8.41,10.65,5.34,9.84M9.84,15,7.89,18m6.27-3,1.95,3m-.61-7.33,3.16-.83M12,8,8.5,10.67,9.84,15h4.32l1.34-4.33Zm0-5a9,9,0,1,0,9,9A9,9,0,0,0,12,3Z"
+										fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+								</g>
+							</svg>
+						</div>
+						<h4 class="modal__box-title">Футбол</h4>
+					</div>
+					<div class="modal__box" data-type="karate">
+						<div class="modal__wp-img">
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+								viewBox="0 0 455 455" style="enable-background:new 0 0 455 455;" xml:space="preserve">
+								<g>
+									<polygon
+										points="97.358,242.652 346.168,242.652 227.5,87.526 198.754,49.949 164.172,4.743 97.358,20.638 0,107.916 48.555,183.094 97.358,160.225 " />
+									<polygon
+										points="273.5,350.257 243.5,350.257 243.5,272.652 211.5,272.652 211.5,400.257 181.5,400.257 181.5,272.652 97.358,272.652 97.358,450.257 357.642,450.257 357.642,272.652 273.5,272.652 " />
+									<polygon
+										points="357.642,20.638 290.828,4.743 246.386,62.839 357.642,208.276 357.642,160.225 406.445,183.094 455,107.916 " />
+								</g>
+							</svg>
+						</div>
+						<h4 class="modal__box-title">Карате</h4>
+					</div>
+					<div class="modal__box" data-type="volleyball">
+						<div class="modal__wp-img">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+								<path
+									d="M261.14,263a255.79,255.79,0,0,0,121.68-46.27,257.65,257.65,0,0,0,77.4-88.58,239.72,239.72,0,0,1,31.1,75.76C429,284.58,341.07,334.65,242.63,345.69A240,240,0,0,1,261.14,263ZM130.84,50.12a425.45,425.45,0,0,1,57.61,5.21,8.08,8.08,0,0,0,1.2.09,7.5,7.5,0,0,0,1.17-14.9c-11.28-1.81-22.7-3.16-34.15-4.08A239.5,239.5,0,0,1,256,15c79.84,0,150.72,39,194.6,99a239.55,239.55,0,0,1-26.68,42.63,436.15,436.15,0,0,0-197.82-109,7.5,7.5,0,0,0-3.58,14.57,421.08,421.08,0,0,1,191.77,106,242.83,242.83,0,0,1-58.62,48.15,401.22,401.22,0,0,0-48.1-40,7.5,7.5,0,1,0-8.64,12.26,385.76,385.76,0,0,1,42.92,35.22,240.33,240.33,0,0,1-83.09,24.34,255.81,255.81,0,0,0-231.9-66.86,240.37,240.37,0,0,1,30.63-61.82A381.55,381.55,0,0,1,269.82,170a7.5,7.5,0,0,0,7.5-13A396.19,396.19,0,0,0,69.1,104,242.82,242.82,0,0,1,130.84,50.12ZM22.12,197.81a239.88,239.88,0,0,1,43.56-6.62,353.9,353.9,0,0,0-23,176.93,240.85,240.85,0,0,1-20.6-170.31ZM63.9,401.35A339.38,339.38,0,0,1,82.08,190.79a242.48,242.48,0,0,1,76.18,13,357.66,357.66,0,0,0,0,272.45A242.35,242.35,0,0,1,63.9,401.35ZM178,484a342.7,342.7,0,0,1-5.67-274.94,240.3,240.3,0,0,1,74.77,48.68,255.76,255.76,0,0,0,22,238.87q-6.48.36-13.05.36A240,240,0,0,1,178,484Zm108.15,11.09A240.35,240.35,0,0,1,258,441.82a351.11,351.11,0,0,0,73.32-10.08,7.5,7.5,0,0,0-3.6-14.56,336.25,336.25,0,0,1-74.79,9.76,243.19,243.19,0,0,1-10.47-66.14,371.75,371.75,0,0,0,145.65-47.15,387.57,387.57,0,0,0,106.72-90.08A242.63,242.63,0,0,1,497,256a240.14,240.14,0,0,1-10.41,70.09,337.63,337.63,0,0,1-124.66,80.63,7.5,7.5,0,1,0,5.14,14.09,352.25,352.25,0,0,0,107.2-62.71C439.84,431.41,369.55,484.67,286.13,495.12Z" />
+							</svg>
+						</div>
+						<h4 class="modal__box-title">Волейбол</h4>
+					</div>
+				</div>
+			</div>
+			<div class="modal__close">
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+	</div>
+</div>
+	<!-- <script src="js/vendors.min.js?_v=20230603231432"></script> -->
+<script src="js/app.min.js?_v=20230603231432"></script>
+</body>
+
+</html>
