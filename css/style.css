@@ -534,19 +534,48 @@ body._lock {
   color: #ffffff;
 }
 
-.footer__button {
-  padding: 12px 22px;
+.footer__form {
+  position: relative;
+}
+
+.footer__form .just-validate-error-label {
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.footer__input {
+  width: 300px;
+  padding: 8px;
   border-radius: 8px;
-  color: #ffffff;
-  border: 2px solid #ff8a56;
-  background-color: transparent;
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s;
+  border: 2px solid transparent;
+  font-size: 18px;
 }
 
-.footer__button:hover {
-  background-color: #ff8a56;
+.footer__input:focus {
+  border: 2px solid #56cdfa;
+}
+
+.footer__input.just-validate-error-field {
+  border: 2px solid #ff5e69;
+}
+
+.footer__button {
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  height: 37px;
+  padding: 0 8px;
+  border-radius: 6px;
+  color: #ffffff;
+  border: 2px solid #56cdfa;
+  background-color: #56cdfa;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .footer__wp-messenger {
@@ -1637,6 +1666,7 @@ body._lock {
       -ms-transform: translate(-50%, -100%);
           transform: translate(-50%, -100%);
   z-index: 11;
+  color: #ffffff;
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s;
@@ -1663,6 +1693,13 @@ body._lock {
 @media (max-width: 1182px) {
   ._container {
     max-width: 970px;
+  }
+
+  .footer__wp-block:last-child {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
