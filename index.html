@@ -4,7 +4,7 @@
 	<title>AlfaGym</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
-	<link rel="stylesheet" href="css/style.min.css?_v=20230609004902">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230611155042">
 	<!-- <link rel="shortcut icon" href="img/favicon/Gulp.svg"> -->
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
@@ -319,7 +319,7 @@
 						<h2 class="schedule__title _title">Выберите тарифный план</h2>
 						<div class="price__body section-body">
 							<div class="price__wp-card">
-								<div class="price__card" data-price="2000">
+								<div class="price__card" data-tariff="Elementary,2000">
 									<h4 class="price__name">Elementary</h4>
 									<div class="price__wp-tariff">
 										<span class="price__tariff-price">2000</span>
@@ -336,7 +336,7 @@
 								</div>
 							</div>
 							<div class="price__wp-card">
-								<div class="price__card" data-price="3000">
+								<div class="price__card" data-tariff="Standart,3000">
 									<h4 class="price__name">Standart</h4>
 									<div class="price__wp-tariff">
 										<span class="price__tariff-price">3000</span>
@@ -353,7 +353,7 @@
 								</div>
 							</div>
 							<div class="price__wp-card">
-								<div class="price__card" data-price="4000">
+								<div class="price__card" data-tariff="Business,4000">
 									<h4 class="price__name">Business</h4>
 									<div class="price__wp-tariff">
 										<span class="price__tariff-price">4000</span>
@@ -646,6 +646,18 @@
 						<input type="tel" inputmode="tel" name="phone" class="modal__input input">
 					</div>
 					<div class="modal__wp-input">
+						<!-- Название поля ввода 👇-->
+						<span class="modal__input-name">Тарифный план</span>
+						<!-- Поле ввода 👇-->
+						<input type="text" name="tariff" class="modal__input input" readonly>
+					</div>
+					<div class="modal__wp-input">
+						<!-- Название поля ввода 👇-->
+						<span class="modal__input-name">Цена</span>
+						<!-- Поле ввода 👇-->
+						<input type="text" name="price" class="modal__input input" readonly>
+					</div>
+					<div class="modal__wp-input">
 						<span class="modal__input-name">Cпособ связи</span>
 						<select name="messenger" class="modal__select select">
 							<option value="Telegram">Telegram</option>
@@ -664,8 +676,8 @@
 		</div>
 	</div>
 </div>
-	<!-- <script src="js/vendors.min.js?_v=20230609004902"></script> -->
-<script src="js/app.min.js?_v=20230609004902"></script>
+	<!-- <script src="js/vendors.min.js?_v=20230611155042"></script> -->
+<script src="js/app.min.js?_v=20230611155042"></script>
 </body>
 
 </html>
