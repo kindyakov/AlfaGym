@@ -716,6 +716,7 @@ body._lock {
       -ms-flex-direction: column;
           flex-direction: column;
   row-gap: 20px;
+  width: 100%;
 }
 
 .modal__box:hover .modal__wp-img svg {
@@ -1117,7 +1118,18 @@ body._lock {
   margin-top: 60px;
 }
 
+.trainer__box-wrapper {
+  border-bottom: 3px solid rgb(70, 70, 70);
+  padding-bottom: 30px;
+}
+
+.trainer__box-wrapper:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
 .trainer__box-content {
+  margin-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1127,6 +1139,28 @@ body._lock {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.trainer__name {
+  margin: 0 auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.trainer__name span {
+  font-size: 22px;
+  text-align: center;
+  padding: 6px 12px;
+  background-color: #56cdfa;
+  border-radius: 4px;
 }
 
 .trainer__wp-img {
@@ -1384,13 +1418,29 @@ body._lock {
 .coaches__wp-card {
   overflow: hidden;
   padding: 15px;
-  background-color: #ffffff;
+  background-color: #282828;
   border-radius: 12px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(255, 255, 255, 0.3);
+          box-shadow: 0px 2px 4px 0px rgba(255, 255, 255, 0.3);
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.coaches__wp-card:hover {
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(255, 138, 86, 0.8);
+          box-shadow: 0px 2px 4px 0px rgba(255, 138, 86, 0.8);
+}
+
+.coaches__wp-card:hover .coaches__card-img {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .coaches__card {
   width: 100%;
-  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1423,9 +1473,13 @@ body._lock {
   max-height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .coaches__wp-description {
+  margin-top: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1437,10 +1491,11 @@ body._lock {
       -ms-flex-direction: column;
           flex-direction: column;
   row-gap: 15px;
+  max-width: 480px;
 }
 
 .coaches__name {
-  color: #04090b;
+  color: #ffffff;
   text-align: center;
   font-weight: 800;
   font-size: 24px;
@@ -1458,16 +1513,36 @@ body._lock {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  row-gap: 8px;
+  row-gap: 15px;
 }
 
 .coaches__li {
-  color: #04090b;
+  color: #ffffff;
   font-size: 18px;
+  line-height: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100%;
 }
 
-.coaches__li:first-child {
+.coaches__li b {
   font-weight: bold;
+  padding: 2px 4px;
+  border-radius: 2px;
+  background-color: #ff8a56;
+  margin-bottom: 10px;
+}
+
+.trainer-title {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
 }
 
 .services__content {
@@ -1696,6 +1771,7 @@ body._lock {
   border-radius: 8px;
   row-gap: 25px;
   padding: 30px 20px;
+  height: 100%;
 }
 
 .price__name {
@@ -1782,6 +1858,7 @@ body._lock {
   -webkit-transition: 0.1s;
   -o-transition: 0.1s;
   transition: 0.1s;
+  margin-top: auto;
 }
 
 .price__button:active {
@@ -2061,7 +2138,7 @@ body._lock {
   }
 
   .modal__body {
-    padding: 45px 30px;
+    padding: 45px 10px;
   }
 
   .modal__title {
@@ -2069,12 +2146,23 @@ body._lock {
   }
 
   .modal__wp-box {
-    gap: 30px;
+    row-gap: 30px;
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
   }
 
   .modal__wp-img svg {
     width: 100px;
     height: 100px;
+  }
+
+  .modal__box-title {
+    font-size: 18px;
+  }
+
+  .trainer__box-title {
+    font-size: 16px;
   }
 
   .coaches__body {
